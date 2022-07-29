@@ -53,7 +53,7 @@ v2ray linux 客户端，使用pyqt5编写GUI界面，核心基于v2ray-core(v2ra
 解决方法(请先运行安装脚本)：
 
 在自己的电脑上重新打包程序，具体方法如下（参考）
-1. 运行`git clone https://github.com/jiangxufeng/v2rayL.git`
+1. 运行`git clone https://github.com/fg0578fg0578/v2rayL.git`
 2. 进入项目文件夹，然后运行`pip install -r requirements.txt`
 3. 运行`cd v2rayL-GUI && pyinstaller -F v2rayLui.py -p config.py -p sub2conf_api.py -p v2rayL_api.py -p v2rayL_threads.py -p utils.py -i images/logo.ico -n v2rayLui`
 4. 打包后运行`mv dist/v2rayLui /usr/bin/v2rayL/v2rayLui` 替换安装时下载的程序
